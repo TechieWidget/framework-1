@@ -10,12 +10,12 @@ GitHub Repository: https://github.com/samchon/framework
 
 Samchon Framework is an OON (Object-Oriented Network) framework. You can compose network systems within framework of the Object-Oriented. 
 
-Whether how the network system is enormous and complicate, **the system nodes, they're just objects** in the Samchon Framework. Define <u>objects who represent the *system nodes*</u> and <u>deliver message by calling methods from objects to objects</u>. That's all.
+No matter how enormous or complicated the network system is, **the system nodes are just objects** in the Samchon Framework. The framework defines <u>objects that represent the *system nodes*</u> and <u>deliver message by calling methods from objects to objects</u>. That's all.
 
 ### System Templates, Modules of OON
-I repeat, Samchon is an OON (Object-Oriented Network) framework, composing a network system within framework of the Object-Oriented. It means that even **modulization** is possible and it's called **System Templates**. You can maximize the **reusability** with the **modulization, System Templates**.
+I repeat, Samchon is an OON (Object-Oriented Network) framework, composing of a network system within framework of the Object-Oriented. It means that **modulization** is possible with modules called **System Templates**. You can maximize **reusability** by using **System Templates**.
 
-When you need a cloud system, then take a System Template named [Cloud Service](https://github.com/samchon/framework/wiki/TypeScript-Templates-Cloud_Service). When you need a distributed processings system, then take the [Distributed System](https://github.com/samchon/framework/wiki/TypeScript-Templates-Distributed-System). If you should implement a specific network system and the network system will be used repeatedly, then **modulize** it to be one of the **System Templates**.
+When you need a cloud system, use a System Template named [Cloud Service](https://github.com/samchon/framework/wiki/TypeScript-Templates-Cloud_Service). When you need a distributed processings system, use the [Distributed System](https://github.com/samchon/framework/wiki/TypeScript-Templates-Distributed-System). If you should implement a specific network system and the network system will be used repeatedly, then **modulize** it to be one of the **System Templates**.
 
 Below **System Templates** are basically provided in the Samchon Framework:
 
@@ -27,9 +27,9 @@ Below **System Templates** are basically provided in the Samchon Framework:
 ### [TypeScript-STL](https://github.com/samchon/typescript-stl), interaction with TypeScript and C\++
 [![Supported Languages](http://samchon.github.io/framework/images/accessory/language_diagram.png)](#interaction)
 
-The best solution, for integrating and migrating a system built by different languages (TypeScript and C++), is to sharing same designs and grammers. Those designs and grammers are unitifed, then any other solution can't be better. Samchon Framework provides the best solution.
+The best solution for integrating and migrating a system built by different languages (TypeScript and C++) is to share the same designs and grammers. Those designs and grammers are unified. There are no other better solution than that. Samchon Framework provides the best solution.
 
-Unifying designs, it can be come true by utilizing the **Object-Oriented Network** paradigm with Samchon Framework. Unifying grammer, it also can be done by using the [**TypeScript-STL**](https://github.com/samchon/tstl), a sub-project who migrated C\++'s STL (Standard Template Library) to TypeScript. You can use STL's containers and algorithms in TypeScript with the [**TypeScript-STL**](https://github.com/samchon/tstl). Thus, you can unify not only designs but also grammers, algorithms and even data structures with the [**TypeScript-STL**](https://github.com/samchon/tstl).
+Unifying designs can become true by utilizing the **Object-Oriented Network** paradigm with Samchon Framework. Unifying grammer can be done by using the [**TypeScript-STL**](https://github.com/samchon/tstl), a sub-project that migrated C\++'s STL (Standard Template Library) to TypeScript. You can use STL's containers and algorithms in TypeScript with the [**TypeScript-STL**](https://github.com/samchon/tstl). Not only can you unify designs, you can also unify grammers, algorithms and even data structures with the [**TypeScript-STL**](https://github.com/samchon/tstl).
 
 #### Suggestion
 If you're planning to build a cloud solution, then I sugguest you to follow such step:
@@ -56,7 +56,7 @@ import samchon = require("samchon");
 ```
 
 #### C++
-Samchon Framework is a header only project. Linkages like LIB, DLL or SO are not required at all. **Just include header files what you want**. However, notice that, Samchon Framework has two dependencies you should install.
+Samchon Framework is a header only project. Linkages like LIB, DLL or SO are not required at all. **Just include header files what you want**. However, please take note that Samchon Framework has two dependencies you should install.
   - [Boost](http://www.boost.org) - essential.
   - [ODBC](https://en.wikipedia.org/wiki/Open_Database_Connectivity) - optional, required only when using SQL driver.
 
